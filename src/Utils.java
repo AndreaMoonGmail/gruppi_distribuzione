@@ -35,7 +35,7 @@ public class Utils {
 		del.append(" delete  from sisalpay_wopr_ms_download.settingdistributiontsids where tsid in (  \n");
 		
 		for (Integer terminale : inputTerminali) {
-			del.append(terminale.toString()).append(",\n");
+			del.append("'"+terminale.toString()+"'").append(",\n");
 		}
 		del.deleteCharAt(del.length()-2);
 	    del.append(")");
