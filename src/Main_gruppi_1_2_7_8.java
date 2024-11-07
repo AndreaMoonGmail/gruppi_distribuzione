@@ -1,16 +1,14 @@
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main_gruppi_1_2 {
-
-	public static void main(String[] args) {
+public class Main_gruppi_1_2_7_8 {
+public static void main(String[] args) {
 		
 		List<Integer> gruppi= new ArrayList<Integer>();
 		gruppi.add(1);
 		gruppi.add(2);
+		gruppi.add(7);
+		gruppi.add(8);
 		
 		
 		try {
@@ -30,6 +28,4 @@ public class Main_gruppi_1_2 {
 	}
 	
 	
-	
-
 }
