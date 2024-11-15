@@ -8,7 +8,7 @@ public static void main(String[] args) {
 		gruppi.add(1);
 		gruppi.add(2);
 		gruppi.add(7);
-		gruppi.add(8);
+//		gruppi.add(8);
 		
 		
 		try {
